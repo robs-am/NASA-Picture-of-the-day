@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nasa's Astronomical Picture of the Day</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main>
-    <header>
-    <h1>Nasa's Astronomical Picture of the Day</h1>
+        <header>
+            <div class="titulo-imagem">
+                <h1>Nasa's Astronomical Picture of the Day</h1>
+                <img  class="telescopio" src="./assets/Telescope.svg">
+            </div>
+            <form>
+                <label for="datepicker" class="datepicker">Pick a date:
+                    <input id="datepicker" type="date" min="" max="">
+                </label>
+            </form>
 
-    <form >
-    <label for="datepicker" class="datepicker">Pick a date: 
-    <input id="datepicker" type="date" min="" max="" > 
-    </label>
-    </form>
+            <hr style="color: white; width: 60vw;">
+        </header>
 
-    <hr style="color: white; width: 60vw;">
-    </header>
+        <section class="title-section">
+            <h2 id="title"></h2>
+            <p id="date"></p>
+            <small style="display: block;" id="copyright"></small>
+        </section>
 
-    <section class="title-section">
-    <h2 id="title"></h2>
-    <p id="date"></p>
-    <small style="display: block;" id="copyright" ></small>
-    </section>
+        <section id="media-section">
+        </section>
 
-    <section id="media-section">
-    </section>
-
-   <div class="description-div">
-    <p id="description"></p>
-   </div>
-    <script src="app.js"></script> 
+        <div class="description-div">
+            <p id="description"></p>
+        </div>
+        <script src="app.js"></script>
 
 </body>
 
 </html>
-
-

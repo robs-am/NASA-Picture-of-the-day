@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 
 :root {
-    font-family: 'Montserrat', sans-serif;
-    --primary-color: #171717;
-    --secondary-color: #3399c4;
+    font-family: 'JetBrains Mono', monospace;
+    --primary-color: #1C2840;
+    --secondary-color: #FDA9B9;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,12 +17,21 @@ body {
     flex-direction: column;
 
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    
 }
 
-header {
-    
-    padding: 2rem;
+header, h1 {
+    color: var(--secondary-color);
+    padding: 1.5rem;
+}
+
+.telescopio {
+    height: 100px;
+    width: 100px;
+}
+
+.titulo-imagem {
+    display: flex;
 }
 
 main {
@@ -43,7 +52,8 @@ main {
 
 .datepicker {
     font-weight: bold;
-    padding-inline: 1.5rem;
+    padding-inline: 1rem;
+    
     
 }
 
