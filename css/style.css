@@ -18,6 +18,7 @@ body {
 
     background-color: var(--primary-color);
     
+    
 }
 
 header, h1 {
@@ -28,6 +29,7 @@ header, h1 {
 .telescopio {
     height: 100px;
     width: 100px;
+    
 }
 
 .titulo-imagem {
