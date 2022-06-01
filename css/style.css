@@ -1,5 +1,3 @@
-
-
 :root {
     font-family: 'JetBrains Mono', monospace;
     --primary-color: #1C2840;
@@ -7,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 
 }
 
@@ -16,20 +14,33 @@ body {
     align-items: center;
     flex-direction: column;
 
-    background-color: var(--primary-color);
-    
-    
+    background-image: url(/assets/jack-cohen-nHFczgs6ppw-unsplash.jpg);
+
+
+
 }
 
-header, h1 {
+header {
+    background: rgba(246, 239, 239, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.3px);
+    -webkit-backdrop-filter: blur(13.3px);
+}
+
+header,
+h1 {
     color: var(--secondary-color);
     padding: 1.5rem;
+    
+
+
 }
 
 .telescopio {
     height: 100px;
     width: 100px;
-    
+
 }
 
 .titulo-imagem {
@@ -55,8 +66,8 @@ main {
 .datepicker {
     font-weight: bold;
     padding-inline: 1rem;
-    
-    
+
+
 }
 
 .image-div {
