@@ -1,8 +1,8 @@
 :root {
-    font-family: 'Chillax', sans-serif;
+    
 
     --primary-color: #1C2840;
-    --secondary-color: #FDA9B9;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    font-family: 'Chillax', sans-serif;
     background-image: url(/assets/jack-cohen-nHFczgs6ppw-unsplash.jpg);
 
 
@@ -32,18 +32,38 @@ header {
 
 header,
 h1 {
-    color: var(--secondary-color);
+    color: #FDA9B9;
     padding: 1.5rem;
     font-weight: 100;
-    
+
 
 
 }
 
-.telescopio {
-    height: 100px;
-    width: 100px;
+.title {
+    background: rgba(246, 239, 239, 0.08);
+    border-radius: 16px;
+    border: 00.1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20.3px);
+    -webkit-backdrop-filter: blur(13.3px);
+    padding-bottom: 1.5rem;
+    padding-inline: 1rem;
 
+}
+
+.form {
+    border: none;
+    padding-bottom: 5rem;
+}
+
+#google_translate_element,
+.skiptranslate {
+    display: none;
+}
+
+body {
+    top: 0 !important;
 }
 
 .container {
@@ -54,8 +74,8 @@ h1 {
 .row {
     display: flex;
     align-items: center;
-    
-    flex-direction: row;
+
+    flex-direction: column;
 }
 
 
@@ -65,7 +85,9 @@ main {
 }
 
 .title-section {
-    padding: 2rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 2rem
 }
 
 #datepicker {
@@ -73,10 +95,12 @@ main {
     width: 9rem;
     padding: 00.2rem;
     border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .datepicker {
-    
+
+    border: none;
     padding-inline: 1rem;
 
 
@@ -102,11 +126,18 @@ main {
 }
 
 .description-div {
+    font-family: 'Montserrat', sans-serif;
     width: 80%;
-    margin: 0.1rem auto 1rem;
+    margin-block: 1rem;
     border: solid 1px white;
-    padding: 0.5rem;
-    border-radius: 00.5rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 18px;
+
+    border-radius: 50px;
+    background: #1C2840;
+    box-shadow:  20px 20px 60px #182236,
+                 -20px -20px 60px #202e4a;
 }
 
 #description {

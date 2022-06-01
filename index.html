@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,9 @@
     <title>Nasa's Astronomical Picture of the Day</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://api.fontshare.com/v2/css?f[]=chillax@300,700,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,35 +18,51 @@
         <header>
             <div class="container">
                 <div class="row">
-                <div class="title">
-                    <h1>NASA'S ASTRONOMICAL PICTURE OF THE DAY</h1>
-                    <form>
-                        <label for="datepicker" class="datepicker">Pick a date:
-                            <input id="datepicker" type="date" min="" max="">
-                        </label>
-                    </form>
-                </div>
+                    <div class="title">
+                        <h1>NASA'S ASTRONOMICAL PICTURE OF THE DAY</h1>
+                        <form>
+                            <label for="datepicker" class="datepicker">Pick a date:
+                                <input id="datepicker" type="date" min="" max="">
+                            </label>
+                        </form>
+                    </div>
+
                     <section class="title-section">
                         <h2 id="title"></h2>
                         <p id="date"></p>
                         <small style="display: block;" id="copyright"></small>
                     </section>
-            
+
                     <section id="media-section">
                     </section>
-            
+
                     <div class="description-div">
                         <p id="description"></p>
                     </div>
                 </div>
             </div>
-            
 
-            
+
+
         </header>
 
-        
-        <script src="app.js"></script>
+
+
+
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'pt',
+                    includedLanguages: 'et',
+                    autoDisplay: false
+                }, 'google_translate_element');
+                var a = document.querySelector("#google_translate_element select");
+                a.selectedIndex = 1;
+                a.dispatchEvent(new Event('change'));
+            }
+        </script>
+
+        <script src="/js/main.js"></script>
 
 </body>
 
