@@ -18,3 +18,6 @@ const title = document.querySelector("#title");
 const copyright = document.querySelector("#copyright");
 const mediaSection = document.querySelector("#media-section");
 const information = document.querySelector("#description");
+
+function displaydata(data){
+}
