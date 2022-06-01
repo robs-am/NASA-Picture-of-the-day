@@ -15,31 +15,36 @@
 <body>
     <main>
         <header>
-            <div class="titulo-imagem">
-                <h1>NASA'S ASTRONOMICAL PICTURE OF THE DAY</h1>
-                <img  class="telescopio" src="./assets/Planet-1.png">
+            <div class="container">
+                <div class="row">
+                <div class="title">
+                    <h1>NASA'S ASTRONOMICAL PICTURE OF THE DAY</h1>
+                    <form>
+                        <label for="datepicker" class="datepicker">Pick a date:
+                            <input id="datepicker" type="date" min="" max="">
+                        </label>
+                    </form>
+                </div>
+                    <section class="title-section">
+                        <h2 id="title"></h2>
+                        <p id="date"></p>
+                        <small style="display: block;" id="copyright"></small>
+                    </section>
+            
+                    <section id="media-section">
+                    </section>
+            
+                    <div class="description-div">
+                        <p id="description"></p>
+                    </div>
+                </div>
             </div>
-            <form>
-                <label for="datepicker" class="datepicker">Pick a date:
-                    <input id="datepicker" type="date" min="" max="">
-                </label>
-            </form>
+            
 
             
         </header>
 
-        <section class="title-section">
-            <h2 id="title"></h2>
-            <p id="date"></p>
-            <small style="display: block;" id="copyright"></small>
-        </section>
-
-        <section id="media-section">
-        </section>
-
-        <div class="description-div">
-            <p id="description"></p>
-        </div>
+        
         <script src="app.js"></script>
 
 </body>
