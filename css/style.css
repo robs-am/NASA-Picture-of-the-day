@@ -1,8 +1,8 @@
 :root {
+
+
     
 
-    --primary-color: #1C2840;
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,8 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Chillax', sans-serif;
-    background-image: url(/assets/jack-cohen-nHFczgs6ppw-unsplash.jpg);
+    background-color: #2F5678;
+    
 
 
 
@@ -23,11 +24,12 @@ body {
 
 header {
     background: rgba(246, 239, 239, 0.08);
-    border-radius: 16px;
+    border-radius: 00.3rem;
     border: 00.1rem solid;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20.3px);
     -webkit-backdrop-filter: blur(13.3px);
+    width: 75vw;
 }
 
 header,
@@ -42,13 +44,14 @@ h1 {
 
 .title {
     background: rgba(246, 239, 239, 0.08);
-    border-radius: 16px;
-    border: 00.1rem;
+    
+    border-radius: 00.3rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20.3px);
     -webkit-backdrop-filter: blur(13.3px);
     padding-bottom: 1.5rem;
     padding-inline: 1rem;
+    text-shadow: 0 -4px 3px rgba(255, 255, 255, 0.3), 0 3px 4px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -69,6 +72,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+
 }
 
 .row {
@@ -87,9 +91,17 @@ main {
 .title-section {
     padding: 1rem;
     margin-block: 2rem;
-    border: 1px solid #FDA9B9;
-    border-radius: 1.2rem;
-    color:#FFFFFF;
+    
+    border-radius: 00.3rem;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(246, 239, 239, 0.08);
+    
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20.3px);
+    -webkit-backdrop-filter: blur(13.3px);
 }
 
 #datepicker {
@@ -130,16 +142,21 @@ main {
 .description-div {
     font-family: 'Montserrat', sans-serif;
     width: 80%;
-    margin-block: 1rem;
+    margin-block: 1.6rem;
     border: solid 1px white;
     padding: 1rem;
     color: #FFFFFF;
     font-size: 18px;
 
-    border-radius: 50px;
+    border-radius: 00.3rem;
     background: #1C2840;
-    box-shadow:  20px 20px 60px #182236,
-                 -20px -20px 60px #202e4a;
+    box-shadow:
+        3.4px 2.6px 13.5px -73px rgba(0, 0, 0, 0.073),
+        7.5px 5.6px 34.2px -73px rgba(0, 0, 0, 0.098),
+        13.3px 10px 69.8px -73px rgba(0, 0, 0, 0.124),
+        24.2px 18.1px 143.8px -73px rgba(0, 0, 0, 0.165),
+        60px 45px 394px -73px rgba(0, 0, 0, 0.25);
+    text-align: justify;
 }
 
 #description {
