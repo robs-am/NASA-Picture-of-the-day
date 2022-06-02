@@ -1,7 +1,7 @@
 
 <h1 align="center">☄️ NASA'S Astronomical Picture of the Day</h1>
-<p align="center">A website that displays NASA's picture of the day and its description using its own API. Built with HYML5, CSS3 and JavaScript</p>
-<p align="center">[https://weather-app-robs.netlify.app/](https://nasa-picture-of-the-day-two.vercel.app/)</p>
+<p align="center">A website that displays NASA's picture of the day and its description using its own API. Built with HTML5, CSS3 and JavaScript</p>
+<p align="center">(https://nasa-picture-of-the-day-two.vercel.app/)</p>
 
 
 <p align="center">
@@ -12,22 +12,26 @@
  
 </p>
 
-![weather_final (1)](https://user-images.githubusercontent.com/102549776/165374678-90cb7c87-d59a-4685-ab57-8e0005d199ce.gif)
+![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_6_](https://user-images.githubusercontent.com/102549776/171742774-f819652f-85a6-499f-8d56-e50d5fb7cc09.gif)
 
 
 
 <h2 align="center">About</h2>
 
-<p align="center">This was my first attempt learning JavaScript while doing a project. I was able to learn about:</p>
+<p align="center">I used NASA's open API page to build a website that displays the day's image in this project. In fact, it is more accurate to say it shows the media of the day since it can be also a video. This project started in 1995, so I have an idea to add a function for also searching for a specific date:
 
- <p align="center"><strong>CSS:</strong></p>
-➡️ Variety of styles of the text shadow attribute to do a  slightly bevel effect on the temperature.<br>
-➡️ Use of source landscape images of Unsplash website to generate random background images as you reload the page.<br><br>
 
- <p align="center"><strong>JavaScript:</strong></p>
-➡️ Use of the fetch() method to request to the server and load the weather information in the webpage. It was used an API that returned data in the JSON data format.<br>
-➡️ Implementing the Math.trunc() method to return the integer part of numbers, in that case, of the Celsius temperature.<br>
-➡️ Use of the API from OpenWeathermap.com 
+![funcao_data](https://user-images.githubusercontent.com/102549776/171747113-78e15e54-cc60-41b7-b4c1-ceab35d1e6bb.png)
+
+
+I realized that when the media found was a video, the code didn`t show any media, so I had to write a new conditional when it happened:
+ 
+ ![funcao_media](https://user-images.githubusercontent.com/102549776/171747141-c4b59ebd-be96-4823-a233-12089b7f313e.png)
+
+
+</p>
+
+ 
 
 
           
