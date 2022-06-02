@@ -1,6 +1,6 @@
 # NASA-Picture-of-the-day
-<h1 align="center">🌩️ Weather App</h1>
-<p align="center">A Weather App using HTML5, CCS3, JavaScript and API</p>
+<h1 align="center">☄️ NASA'S Astronomical Picture of the Day</h1>
+<p align="center">A website that displays NASA's picture of the day and its description using its own API. Built with HYML5, CSS3 and JavaScript</p>
 <p align="center">https://weather-app-robs.netlify.app/</p>
 
 
