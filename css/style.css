@@ -90,7 +90,7 @@ main {
 .title-section {
     padding: 1rem;
     margin-block: 2rem;
-    
+    padding-inline: 8rem;
     border-radius: 00.3rem;
     color: #FFFFFF;
     font-weight: 500;
@@ -165,3 +165,58 @@ main {
     line-height: 1.82;
 }
 
+@media only screen and (max-width: 600px) {
+
+    body {
+        max-width: 60%;
+    }
+
+    header {
+        
+        
+    }
+
+    .title {
+        width: 90%;
+        height: 50%;
+        font-size: 12px;
+
+    }
+    .title-section {
+        width: 20%;
+        height: 30%;
+        font-size: 12px;
+        text-align: justify;
+        padding-inline: 7rem;
+    }
+    .main-login {
+        flex-direction: column;
+    }
+
+    .left-login > h1 {
+        display: none;
+    }
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login-image {
+        width: 60vw;
+        margin-top: 10%;
+    }
+
+    .card-login {
+        width: 70%;
+        height: 90%;
+        margin-top: none;
+    }
+
+
+}
