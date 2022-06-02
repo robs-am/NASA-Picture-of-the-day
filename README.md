@@ -47,6 +47,7 @@ I realized that when the media found was a video, the code didn`t show any media
 <br><br>
 
 <p align="center"><strong>Desktop</strong></p>
+
 ![desktop](https://user-images.githubusercontent.com/102549776/171748260-31421c11-fd05-4203-9fa5-a60773c5bb42.png)
 
 </p>
