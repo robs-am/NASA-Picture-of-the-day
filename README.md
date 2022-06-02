@@ -47,8 +47,9 @@ I realized that when the media found was a video, the code didn`t show any media
 <br><br>
 
 <p align="center"><strong>Desktop</strong></p>
+![desktop](https://user-images.githubusercontent.com/102549776/171748260-31421c11-fd05-4203-9fa5-a60773c5bb42.png)
 
-![127 - Full - Generic Laptop - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373204-08918046-11d6-461b-bee6-f8bd15a9006b.jpg)</p>
+</p>
 
 
 
@@ -60,9 +61,8 @@ I realized that when the media found was a video, the code didn`t show any media
 HTML5, CSS3, JavaScript<br>
 Editor: https://code.visualstudio.com/<br>
 React Icons: https://react-icons.github.io/react-icons/<br>
-API: https://openweathermap.org/api<br>
-Text effects: https://medialoot.com/blog/quick-tip-how-to-create-css-text-effects-using-only-the-text-shadow-attribu/<br>
-Background: https://unsplash.com/s/photos/source
+API: https://api.nasa.gov/<br>
+Guideline: https://sophiali.dev/javascript-fetch-api-with-nasa-api
 
 
 
