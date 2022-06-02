@@ -1,13 +1,11 @@
 :root {
-
-
-    
+ 
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-
+    color:#FFFFFF;
 }
 
 body {
@@ -15,7 +13,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Chillax', sans-serif;
-    background-color: #2F5678;
+    background: linear-gradient( #02252df7, #8ba8d292)
     
 
 
@@ -23,7 +21,7 @@ body {
 }
 
 header {
-    background: rgba(246, 239, 239, 0.08);
+    background: rgba(132, 121, 216, 0.135);
     border-radius: 00.3rem;
     border: 00.1rem solid;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -34,8 +32,9 @@ header {
 
 header,
 h1 {
-    color: #FDA9B9;
+    
     padding: 1.5rem;
+    margin-inline: 1.7rem;
     font-weight: 100;
 
 
@@ -94,7 +93,7 @@ main {
     
     border-radius: 00.3rem;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     background: rgba(246, 239, 239, 0.08);
     
@@ -143,13 +142,15 @@ main {
     font-family: 'Montserrat', sans-serif;
     width: 80%;
     margin-block: 1.6rem;
+    margin-inline: 0.5rem;
     border: solid 1px white;
     padding: 1rem;
     color: #FFFFFF;
     font-size: 18px;
+    font-weight: 500;
 
     border-radius: 00.3rem;
-    background: #1C2840;
+    background: #f4f6fb0f;
     box-shadow:
         3.4px 2.6px 13.5px -73px rgba(0, 0, 0, 0.073),
         7.5px 5.6px 34.2px -73px rgba(0, 0, 0, 0.098),
@@ -157,8 +158,10 @@ main {
         24.2px 18.1px 143.8px -73px rgba(0, 0, 0, 0.165),
         60px 45px 394px -73px rgba(0, 0, 0, 0.25);
     text-align: justify;
+    color: #000000;
 }
 
 #description {
     line-height: 1.82;
 }
+

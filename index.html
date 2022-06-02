@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+<div id="google_translate_element"></div>
 
 <body>
     <main>
@@ -34,13 +35,16 @@
                     </section>
 
                     <section id="media-section">
+                        <button class="sharer" data-sharer="facebook" data-url="https://google.com">
+                            Share on Facebook
+                        </button>
                     </section>
 
                     <div class="description-div">
                         <p id="description"></p>
                     </div>
-                </div>
-            </div>
+
+
 
 
 
@@ -49,19 +53,10 @@
 
 
 
-        <script>
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({
-                    pageLanguage: 'pt',
-                    includedLanguages: 'et',
-                    autoDisplay: false
-                }, 'google_translate_element');
-                var a = document.querySelector("#google_translate_element select");
-                a.selectedIndex = 1;
-                a.dispatchEvent(new Event('change'));
-            }
-        </script>
 
+
+        <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+            type="text/javascript"></script>
         <script src="/js/main.js"></script>
 
 </body>
