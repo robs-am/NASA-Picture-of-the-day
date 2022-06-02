@@ -167,56 +167,35 @@ main {
 
 @media only screen and (max-width: 600px) {
 
+   
+    
     body {
         max-width: 60%;
     }
 
-    header {
-        
-        
-    }
+  
 
     .title {
         width: 90%;
         height: 50%;
         font-size: 12px;
+        padding-block: 00.1rem;
+        margin-block: 0.1rem;
 
     }
     .title-section {
-        width: 20%;
+        width: 70%;
         height: 30%;
         font-size: 12px;
         text-align: justify;
-        padding-inline: 7rem;
-    }
-    .main-login {
-        flex-direction: column;
+        padding-inline: 3rem;
+        margin-block: 2rem;
     }
 
-    .left-login > h1 {
-        display: none;
+    #media-section{
+        width: 135%;
+        height: 200%;
     }
-
-    .left-login {
-        width: 100%;
-        height: auto;
-    }
-
-    .right-login {
-        width: 100%;
-        height: auto;
-    }
-
-    .left-login-image {
-        width: 60vw;
-        margin-top: 10%;
-    }
-
-    .card-login {
-        width: 70%;
-        height: 90%;
-        margin-top: none;
-    }
-
+    
 
 }
