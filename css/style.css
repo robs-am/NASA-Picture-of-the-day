@@ -126,6 +126,7 @@ main {
 
 #image_of_the_day {
     width: 100%;
+    border-radius: 0.3rem;
 }
 
 .video-div {
@@ -165,6 +166,31 @@ main {
     line-height: 1.82;
 }
 
+@media only screen and (max-width: 900px) {
+
+    .title {
+        width: 75%;
+        height: 50%;
+        font-size: 12px;
+        padding-block: 00.1rem;
+        margin-block: 0.1rem;
+
+    }
+    .title-section {
+        width: 65%;
+        height: 30%;
+        font-size: 12px;
+        text-align: justify;
+        padding-inline: 3rem;
+        margin-block: 1rem;
+    }
+
+
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
 
    
@@ -176,25 +202,35 @@ main {
   
 
     .title {
-        width: 90%;
-        height: 50%;
+        width: 17rem;
+        height: 12rem;
         font-size: 12px;
-        padding-block: 00.1rem;
-        margin-block: 0.1rem;
-
+    }    
+    
+    .datepicker, h1 {
+        padding-inline: 0;
+        margin-block: 0;
+        padding-block: 0.5rem;
     }
+
+    
     .title-section {
         width: 70%;
         height: 30%;
         font-size: 12px;
-        text-align: justify;
+        text-align: center;
         padding-inline: 3rem;
-        margin-block: 2rem;
+        margin-block: 1rem;
     }
 
     #media-section{
         width: 135%;
         height: 200%;
+    }
+
+    .description-div {
+        margin-inline: 0.02rem;
+        width: 70vw;
     }
     
 
