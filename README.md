@@ -39,10 +39,6 @@ I realized that when the media found was a video, the code didn`t show any media
 
 <h2 align="center">Layout</h2>
 
-<p align="center"><strong>Mobile</strong></p>
-
-![127 - Full - iPhone X - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373361-60927482-5a10-42bf-ae87-440c7078e95e.jpg)
-
 
 <br><br>
 
@@ -61,7 +57,6 @@ I realized that when the media found was a video, the code didn`t show any media
 
 HTML5, CSS3, JavaScript<br>
 Editor: https://code.visualstudio.com/<br>
-React Icons: https://react-icons.github.io/react-icons/<br>
 API: https://api.nasa.gov/<br>
 Guideline: https://sophiali.dev/javascript-fetch-api-with-nasa-api
 
